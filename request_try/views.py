@@ -11,4 +11,4 @@ class EmptyView(APIView):
     def get(self, request):
         print(request.META.get('HTTP_X_FORWARDED_FOR'))
         print(request.META.get('REMOTE_ADDR'))
-        return JsonResponse({"ati": "hosgeldin"}, status=status.HTTP_200_OK)
+        return JsonResponse({"ati": "merhaba"}, status=status.HTTP_200_OK)
